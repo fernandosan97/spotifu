@@ -1,6 +1,7 @@
 .cover {
     flex: 1;
     background: var(--gray50);
+    overflow: hidden;
 }
 
 .albumDetail {
