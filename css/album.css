@@ -1,0 +1,23 @@
+@import './hero.css';
+@import './playlist-songs.css';
+
+.layout-main.coverArtist {
+    background: linear-gradient(181.17deg, rgba(47, 47, 47, 0) -35.3%, #2F2F2F 66.2% ), url(../images/cover-bad-bunny.png) no-repeat center;
+    flex: 1;
+    position: relative;
+    background-size: cover;
+}
+
+.coverArtist {
+    block-size: calc(100vh - 5.5rem);
+}
+
+.albumContainer {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,83 @@
+.playlistSongs {
+    block-size: calc(100vh - 20rem);
+    overflow-y: auto;
+    padding: 1rem 1.5rem;
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font: var(--gray10);
+    color: var(--gray10);
+    padding: .5rem;
+}
+
+.label-search {
+    margin: 0;
+}
+
+.playlist-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlist-head p {
+    color: var(--gray10);
+    text-transform: uppercase;
+    padding: .9rem .6rem;
+}
+
+.playlist-head-space, .playlist-song-buttons{
+    max-inline-size: 5rem;
+    flex: 1;
+}
+
+.playlist-head-title, .playlist-song-title{ 
+    max-inline-size: 17rem;
+    flex: 1;
+}
+
+.playlist-head-artist, .playlist-song-artist {
+    max-inline-size: 20.2rem;
+    flex: 1;
+}
+
+.playlist-head-album, .playlist-song-album{
+    max-inline-size: 20.17rem;
+    flex: 1;
+}
+
+.playlist-head-date, .playlist-song-date {
+    max-inline-size: 5.6rem;
+    flex: 1;
+    text-align: center;
+}
+
+.playlist-head-time, .playlist-song-time {
+    max-inline-size: 3rem;
+    flex: 1;
+    text-align: center;
+}
+
+.playlist-song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.playlist-song-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playButton {
+    border: 1px solid var(--gray10);
+}
+
+.heartButton {
+    color: var(--white);
+    font-size: 20px;
+}
